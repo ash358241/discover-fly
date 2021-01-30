@@ -56,10 +56,15 @@
                                     <label" for="">Departure</label>
                                         <input class="inp-style" type="date" name="">
                                 </div>
+
                                 <div class="input-group">
+                                    <label" for="">Return</label>
+                                        <input class="inp-style" type="date" name="">
+                                </div>
+                                <!-- <div class="input-group">
                                     <label for="">Return</label>
                                     <input class="inp-style" type="date" name="">
-                                </div>
+                                </div> -->
                             </div>
                             <div class="input-group f-class">
                                 <div>
@@ -151,7 +156,7 @@
         <h1 class="text-uppercase">welcome dear passengers</h1>
         <h3>You have successfully booked your tickets for flight.</h3>
         <p>We wish you a very pleasurable and safe journey</p>
-        <h2>Allahr hawla</h2>
+        <h2>May ALLAH keep you safe!</h2>
     </section>
     <!--ensuringFlight-->
 
@@ -178,7 +183,7 @@
             if (flightClass == "economy") {
                 flightClassTotal = flightClassNewCount * 100;
             }
-            document.getElementById(flightClass + "-total").innerText = flightClassTotal;
+            // document.getElementById(flightClass + "-total").innerText = flightClassTotal;
 
             //returning the calculateTotal function for validation and execution
             calculateTotal();
